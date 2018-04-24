@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Home Tour App</string>
+
+    <!-- Fragment's titles -->
+    <string name="highlights">Highlights</string>
+    <string name="wildlife">Into the wild</string>
+    <string name="activities">Activities</string>
+
+    <!-- Activities list - titles -->
+    <string name="activities1_title">title</string>
+    <string name="activities2_title">title</string>
+    <string name="activities3_title">title</string>
+
+    <!-- Activities list - descriptions -->
+    <string name="activities1_description">description description description</string>
+    <string name="activities2_description">description description description</string>
+    <string name="activities3_description">description description description</string>
+
+</resources>
