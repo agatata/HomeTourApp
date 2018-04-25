@@ -1,10 +1,33 @@
 <resources>
     <string name="app_name">Home Tour App</string>
 
-    <!-- Fragment's titles -->
+    <!-- Fragments titles -->
     <string name="highlights">Highlights</string>
     <string name="wildlife">Into the wild</string>
     <string name="activities">Activities</string>
+    <string name="restaurants">Where to eat</string>
+    <string name="transport">Transport</string>
+    <string name="accommodation">Accommodation</string>
+
+    <!-- Highlights list - titles -->
+    <string name="highlights1_title">title</string>
+    <string name="highlights2_title">title</string>
+    <string name="highlights3_title">title</string>
+
+    <!--Wildlife list - descriptions -->
+    <string name="highlights1_description">description description description</string>
+    <string name="highlights2_description">description description description</string>
+    <string name="highlights3_description">description description description</string>
+
+    <!-- Wildlife list - titles -->
+    <string name="wildlife1_title">title</string>
+    <string name="wildlife2_title">title</string>
+    <string name="wildlife3_title">title</string>
+
+    <!-- Wildlife list - descriptions -->
+    <string name="wildlife1_description">description description description</string>
+    <string name="wildlife2_description">description description description</string>
+    <string name="wildlife3_description">description description description</string>
 
     <!-- Activities list - titles -->
     <string name="activities1_title">title</string>
@@ -15,5 +38,35 @@
     <string name="activities1_description">description description description</string>
     <string name="activities2_description">description description description</string>
     <string name="activities3_description">description description description</string>
+
+    <!-- Restaurants list - titles -->
+    <string name="restaurants1_title">title</string>
+    <string name="restaurants2_title">title</string>
+    <string name="restaurants3_title">title</string>
+
+    <!--Restaurants list - descriptions -->
+    <string name="restaurants1_description">description description description</string>
+    <string name="restaurants2_description">description description description description description description some longer description description description description</string>
+    <string name="restaurants3_description">description description description</string>
+
+    <!-- Transport list - titles -->
+    <string name="transport1_title">title</string>
+    <string name="transport2_title">title</string>
+    <string name="transport3_title">title</string>
+
+    <!--Transport list - descriptions -->
+    <string name="transport1_description">description description description</string>
+    <string name="transport2_description">description description description</string>
+    <string name="transport3_description">description description description</string>
+
+    <!-- Accommodation list - titles -->
+    <string name="accommodation1_title">title</string>
+    <string name="accommodation2_title">title</string>
+    <string name="accommodation3_title">title</string>
+
+    <!--Accommodation list - descriptions -->
+    <string name="accommodation1_description">description description description</string>
+    <string name="accommodation2_description">description description description</string>
+    <string name="accommodation3_description">description description description</string>
 
 </resources>

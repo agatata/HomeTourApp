@@ -6,27 +6,32 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <!-- Layout to contain contents of main body of screen (drawer will slide over this) -->
+    <!-- Layout to contain contents of main body of screen -->
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+            android:layout_height="match_parent">
 
-        <android.support.v4.view.ViewPager
-            android:id="@+id/viewpager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/toolbar" />
+        </RelativeLayout>
     </FrameLayout>
 
-    <!-- Container for contents of drawer - use NavigationView to make configuration easier -->
+    <!-- Container for contents of drawer  -->
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"

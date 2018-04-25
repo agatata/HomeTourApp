@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <group android:checkableBehavior="single">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/sightseeing">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_highlights"
             android:icon="@drawable/ic_grade_black_18dp"
             android:title="@string/highlights" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_wildlife"
             android:icon="@drawable/ic_pets_black_18dp"
             android:title="@string/wildlife" />
         <item
@@ -14,4 +16,23 @@
             android:icon="@drawable/ic_pool_black_18dp"
             android:title="@string/activities" />
     </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/tips">
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_pool_black_18dp"
+            android:title="@string/restaurants" />
+        <item
+            android:id="@+id/nav_transort"
+            android:icon="@drawable/ic_pool_black_18dp"
+            android:title="@string/transport" />
+        <item
+            android:id="@+id/nav_accommodation"
+            android:icon="@drawable/ic_pool_black_18dp"
+            android:title="@string/accommodation" />
+    </group>
+
+
 </menu>

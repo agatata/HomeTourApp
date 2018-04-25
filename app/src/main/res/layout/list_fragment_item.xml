@@ -40,7 +40,7 @@
             android:layout_height="44dp"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textStyle="bold" />
 
         <TextView
@@ -49,8 +49,7 @@
             android:layout_height="44dp"
             android:layout_below="@id/title_text_view"
             android:gravity="top"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/black" />
 
         <ImageView
             android:layout_width="24dp"
