@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import butterknife.BindView;
@@ -57,7 +58,7 @@ public class GuideItemAdapter extends ArrayAdapter <GuideItem> {
         @BindView(R.id.description_text_view)
         TextView descriptionTextView;
         @BindView(R.id.image)
-        TextView imageView;
+        ImageView imageView;
 
         public ViewHolder(View listItemView) {
             ButterKnife.bind(this, listItemView);
