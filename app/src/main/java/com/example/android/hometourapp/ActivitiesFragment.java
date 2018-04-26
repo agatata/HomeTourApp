@@ -44,12 +44,12 @@ public class ActivitiesFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView <?> parent, View view, int position, long id) {
-                Intent birdIntent = new Intent(getActivity(), DetailsActivity.class);
+                Intent intent = new Intent(getActivity(), DetailsActivity.class);
                 // get the data from adapter
                 com.example.android.hometourapp.GuideItem getData = adapter.getItem(position);
                 // put the data in intent
-                Intent birdSounds = birdIntent.putExtra("guideItems", getData);
-                startActivity(birdSounds);
+                Intent guideItemIntent = intent.putExtra("guideItems", getData);
+                startActivity(guideItemIntent);
             }
         });
 

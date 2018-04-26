@@ -29,12 +29,12 @@ public class DetailsActivity extends AppCompatActivity {
 
         // get the intent from MainActivity
         Intent intent = getIntent();
-        com.example.android.hometourapp.GuideItem birdChoice = intent.getParcelableExtra("guideItems");
+        com.example.android.hometourapp.GuideItem guideItemChoice = intent.getParcelableExtra("guideItems");
 
         // initialize the strings and the image view ID
-        int birdName = birdChoice.getTitleId();
-        int birdPlace = birdChoice.getDescriptionId();
-        int birdImage = birdChoice.getImageResourceId();
+        int birdName = guideItemChoice.getTitleId();
+        int birdPlace = guideItemChoice.getDescriptionId();
+        int birdImage = guideItemChoice.getImageResourceId();
 
         // set dat to the views
         title.setText(birdName);

@@ -1,12 +1,14 @@
 package com.example.android.hometourapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -35,11 +37,29 @@ public class HighlightsFragment extends Fragment {
                 R.drawable.ic_pets_black_18dp));
         guideItems.add(new GuideItem(R.string.highlights3_title, R.string.highlights3_description,
                 R.drawable.ic_pets_black_18dp));
+        guideItems.add(new GuideItem(R.string.highlights4_title, R.string.highlights4_description,
+                R.drawable.ic_pets_black_18dp));
+        guideItems.add(new GuideItem(R.string.highlights5_title, R.string.highlights5_description,
+                R.drawable.ic_pets_black_18dp));
+
 
         // Create an {@link GuideItemAdapter}
-        GuideItemAdapter adapter = new GuideItemAdapter(getActivity(), guideItems);
+        final GuideItemAdapter adapter = new GuideItemAdapter(getActivity(), guideItems);
 
         listView.setAdapter(adapter);
+
+        // Tracking which item was selected, starting new activity and passing the array
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView <?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getActivity(), DetailsActivity.class);
+                // get the data from adapter
+                com.example.android.hometourapp.GuideItem getData = adapter.getItem(position);
+                // put the data in intent
+                Intent guideItemIntent = intent.putExtra("guideItems", getData);
+                startActivity(guideItemIntent);
+            }
+        });
 
         return rootView;
     }

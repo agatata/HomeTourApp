@@ -10,14 +10,18 @@
     <string name="accommodation">Accommodation</string>
 
     <!-- Highlights list - titles -->
-    <string name="highlights1_title">title</string>
-    <string name="highlights2_title">title</string>
-    <string name="highlights3_title">title</string>
+    <string name="highlights1_title">Kitchen table</string>
+    <string name="highlights2_title">Balcony</string>
+    <string name="highlights3_title">Washing machine</string>
+    <string name="highlights4_title">Toilet cistern</string>
+    <string name="highlights5_title">Cubbyhole</string>
 
-    <!--Wildlife list - descriptions -->
-    <string name="highlights1_description">description description description</string>
-    <string name="highlights2_description">description description description</string>
-    <string name="highlights3_description">description description description</string>
+    <!--Highlight list - descriptions -->
+    <string name="highlights1_description">Would you like to try some experimental dishes? Only by the table in our kitchen you can try prepare yourself an oatmeal with celery or pesto sandwich soaked in cacao. Just grab what you see and mix it!</string>
+    <string name="highlights2_description">You can scream there as loud as you can. At least until the neighbors ask for some quiet. When the weather is good there is a possibility to make a water party in a bathtub. There is a possibility to climb a wall, but not recommended.</string>
+    <string name="highlights3_description">It’s hypnotising. And you can put some stuff in and out.</string>
+    <string name="highlights4_description">This cool sound of flush! And saying bye bye to different things that float away so fast before the parents come.</string>
+    <string name="highlights5_description">Mysterious and rarely inaccessible. With a lot of cool stuff inside. </string>
 
     <!-- Wildlife list - titles -->
     <string name="wildlife1_title">title</string>
