@@ -1,13 +1,13 @@
 package com.example.android.hometourapp;
-
-
-
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -17,6 +17,16 @@ import butterknife.ButterKnife;
  * based on a data source, which is a list of {@link GuideItem} objects.
  */
 public class GuideItemAdapter extends ArrayAdapter <GuideItem> {
+
+    /**
+     * Create a new GuideItemAdapter object.
+     *
+     * @param context is the current context (i.e. Activity) that the adapter is being created in.
+     * @param words is the list of GuideItem s to be displayed.
+     */
+    public GuideItemAdapter(Context context, ArrayList<GuideItem> words) {
+        super(context, 0, words);
+    }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -31,7 +41,7 @@ public class GuideItemAdapter extends ArrayAdapter <GuideItem> {
         }
 
 
-        // Get the {@link Word} object located at this position in the list
+        // Get the GuideItem object located at this position in the list
         GuideItem currentItem = getItem(position);
 
         holder.titleTextView.setText(currentItem.getTitleId());

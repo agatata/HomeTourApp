@@ -1,6 +1,28 @@
 package com.example.android.hometourapp;
 
-public class GuideItem {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class GuideItem implements Parcelable {
+
+    /**
+     * Creator with Bird as its type
+     */
+
+    public static final Creator <GuideItem> CREATOR = new Creator <GuideItem>() {
+        // Method createFromParcel which creates a Bird from the Parcel
+        @Override
+        public GuideItem createFromParcel(Parcel in) {
+            return new GuideItem(in);
+        }
+
+        @Override
+        public GuideItem[] newArray(int size) {
+            return new GuideItem[size];
+        }
+    };
+
+
     /** String resource ID for the title of the list item */
     private int mTitleId;
 
@@ -38,6 +60,20 @@ public class GuideItem {
     }
 
     /**
+     * Create a new Bird object which gets Parcel in
+     */
+
+    protected GuideItem(Parcel in) {
+        mTitleId = in.readInt();
+        mDescriptionId = in.readInt();
+        mImageResourceId = in.readInt();
+    }
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    /**
      * Get the string resource ID for the title of the list item.
      */
     public int getTitleId() {
@@ -63,6 +99,16 @@ public class GuideItem {
      */
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
+
+    /**
+     * This method adds two texts and an image IDs to the Parcel
+     */
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeInt(mTitleId);
+        parcel.writeInt(mDescriptionId);
+        parcel.writeInt(mImageResourceId);
     }
 
 }
