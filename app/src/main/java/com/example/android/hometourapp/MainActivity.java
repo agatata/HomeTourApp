@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
                         if (id == R.id.nav_highlights) {
                             HighlightsFragment highlights = new HighlightsFragment();
                             android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
-                            fragmentManager.beginTransaction().replace(R.id.container, highlights).commit();
+                            fragmentManager.beginTransaction().replace(R.id.content_frame, highlights).commit();
                         } else if (id == R.id.nav_wildlife) {
                             WildlifeFragment wildlife = new WildlifeFragment();
                             android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
-                            fragmentManager.beginTransaction().replace(R.id.container, wildlife).commit();
+                            fragmentManager.beginTransaction().replace(R.id.content_frame, wildlife).commit();
                         }
                         // set item as selected to persist highlight
                         menuItem.setChecked(true);
