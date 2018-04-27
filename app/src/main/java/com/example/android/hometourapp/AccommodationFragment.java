@@ -1,8 +1,6 @@
 package com.example.android.hometourapp;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,14 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-public class WildlifeFragment extends Fragment {
+public class AccommodationFragment extends Fragment {
 
     @BindView(R.id.list)
     ListView listView;
@@ -31,18 +28,16 @@ public class WildlifeFragment extends Fragment {
 
         // Create a list of words
         final ArrayList <GuideItem> guideItems = new ArrayList <>();
-        guideItems.add(new GuideItem(R.string.wildlife1_title, R.string.wildlife1_description,
+        guideItems.add(new GuideItem(R.string.accommodation1_title, R.string.accommodation1_description,
                 R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.wildlife2_title, R.string.wildlife2_description,
+        guideItems.add(new GuideItem(R.string.accommodation2_title, R.string.accommodation2_description,
                 R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.wildlife3_title, R.string.wildlife3_description,
+        guideItems.add(new GuideItem(R.string.accommodation3_title, R.string.accommodation3_description,
                 R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.wildlife4_title, R.string.wildlife4_description,
-                R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.wildlife5_title, R.string.wildlife5_description,
+        guideItems.add(new GuideItem(R.string.accommodation4_title, R.string.accommodation4_description,
                 R.drawable.ic_pets_black_18dp));
 
-        // Create an {@link GuideItemAdapter}
+        // Create an GuideItemAdapter
         final GuideItemAdapter adapter = new GuideItemAdapter(getActivity(), guideItems);
 
         listView.setAdapter(adapter);

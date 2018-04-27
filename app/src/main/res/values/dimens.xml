@@ -2,5 +2,6 @@
 <resources>
     <dimen name="customPadding">16dp</dimen>
     <dimen name="list_item_height">100dp</dimen>
+    <dimen name="list_item_layout_height">44dp</dimen>
     <dimen name="details_image_height">300dp</dimen>
 </resources>

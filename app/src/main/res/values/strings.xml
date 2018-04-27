@@ -9,13 +9,13 @@
     <string name="transport">Transport</string>
     <string name="accommodation">Accommodation</string>
 
+
     <!-- Highlights list - titles -->
     <string name="highlights1_title">Kitchen table</string>
     <string name="highlights2_title">Balcony</string>
     <string name="highlights3_title">Washing machine</string>
     <string name="highlights4_title">Toilet cistern</string>
     <string name="highlights5_title">Cubbyhole</string>
-
     <!--Highlight list - descriptions -->
     <string name="highlights1_description">Would you like to try some experimental dishes? Only by the table in our kitchen you can try prepare yourself an oatmeal with celery or pesto sandwich soaked in cacao. Just grab what you see and mix it!</string>
     <string name="highlights2_description">You can scream there as loud as you can. At least until the neighbors ask for some quiet. When the weather is good there is a possibility to make a water party in a bathtub. There is a possibility to climb a wall, but not recommended.</string>
@@ -24,53 +24,68 @@
     <string name="highlights5_description">Mysterious and rarely inaccessible. With a lot of cool stuff inside. </string>
 
     <!-- Wildlife list - titles -->
-    <string name="wildlife1_title">title</string>
-    <string name="wildlife2_title">title</string>
-    <string name="wildlife3_title">title</string>
-
+    <string name="wildlife1_title">Spiders</string>
+    <string name="wildlife2_title">Balcony plants</string>
+    <string name="wildlife3_title">Balcony view</string>
+    <string name="wildlife4_title">Kitchen herbs</string>
+    <string name="wildlife5_title">Mites</string>
     <!-- Wildlife list - descriptions -->
-    <string name="wildlife1_description">description description description</string>
-    <string name="wildlife2_description">description description description</string>
-    <string name="wildlife3_description">description description description</string>
+    <string name="wildlife1_description">In our climate it’s common to have some spiders at home. If you don’t want to clean your house every day, you will have at least some ready-to-use decorations for Halloween.</string>
+    <string name="wildlife2_description">We like to keeping them and looking at them, but we are still forgetting about watering. So you could help us eventually - we provide metal or plastic watering can and a lot of fun.</string>
+    <string name="wildlife3_description">There is a possibility to observe many birds, even predatory. On the other hand you can see not-so-wild parkin lot as well. </string>
+    <string name="wildlife4_description">We have basil, thyme and oregano at our window sill and same problem as with the balcony plants - our herbs always need more water! We provides some cooking workshops with spreading some leaves (that is the kids’ task) and collecting them (your turn).</string>
+    <string name="wildlife5_description">In our carpets and under our beds  is robust world of little creatures to observe. It consist of mites mostly. Vacuuming helps to get rid of them, but since our vacuum cleaner provides such a fun, efficiency of cleaning dramatically decreased. </string>
 
     <!-- Activities list - titles -->
-    <string name="activities1_title">title</string>
-    <string name="activities2_title">title</string>
-    <string name="activities3_title">title</string>
-
+    <string name="activities1_title">Night singing</string>
+    <string name="activities2_title">Vacuuming random things</string>
+    <string name="activities3_title">Coffee making</string>
+    <string name="activities4_title">Not leaving parents in the bathroom alone</string>
+    <string name="activities5_title">Making some mess</string>
+    <string name="activities6_title">Ice cream eating</string>
+    <string name="activities7_title">Bath or not to bath?</string>
     <!-- Activities list - descriptions -->
-    <string name="activities1_description">description description description</string>
-    <string name="activities2_description">description description description</string>
-    <string name="activities3_description">description description description</string>
+    <string name="activities1_description">Nothing more to say.</string>
+    <string name="activities2_description">Looking for something small you’ve lost? We know where to find it!</string>
+    <string name="activities3_description">Espresso, french press or drip? Our almost-three-year-old will prepare everything you need. With a little help of parents and with a lot of coffee around (but that’s really cool!)… and after the nihgt with us you will surely need it!</string>
+    <string name="activities4_description">The bathroom will never be a quiet place again. And your principal right to poop alone is not respected any more. </string>
+    <string name="activities5_description">Obviously.</string>
+    <string name="activities6_description">The darkest colors of ice cream taste the best.</string>
+    <string name="activities7_description">That is the question. You can refuse to bath when the water is ready and ask for some water-coloring powder when there is nothing like that at home. You can use the bath at the balcony when the weather is good (it means there is more as 4 Celsius degrees outside).</string>
 
     <!-- Restaurants list - titles -->
-    <string name="restaurants1_title">title</string>
-    <string name="restaurants2_title">title</string>
-    <string name="restaurants3_title">title</string>
-
+    <string name="restaurants1_title">Kitchen</string>
+    <string name="restaurants2_title">Sofa</string>
+    <string name="restaurants3_title">Balcony</string>
+    <string name="restaurants4_title">Anywhere</string>
     <!--Restaurants list - descriptions -->
-    <string name="restaurants1_description">description description description</string>
-    <string name="restaurants2_description">description description description description description description some longer description description description description</string>
-    <string name="restaurants3_description">description description description</string>
+    <string name="restaurants1_description">Kitchen may not be very surprising, but the kitchen floor could be. And why the kitchen floor exactly? There is a possibility to find some old bread or an apple purchased one month before. Guten Apetit!</string>
+    <string name="restaurants2_description">We recommend some indirect investigations. Under the pillows you can find some crumbles etc., which are a pretty good material for a long what-have-you-eaten-recently-quiz.</string>
+    <string name="restaurants3_description">It is so called „picnic”.</string>
+    <string name="restaurants4_description">Who care about the rules?</string>
 
     <!-- Transport list - titles -->
-    <string name="transport1_title">title</string>
-    <string name="transport2_title">title</string>
-    <string name="transport3_title">title</string>
-
+    <string name="transport1_title">Bike</string>
+    <string name="transport2_title">Buggy for one</string>
+    <string name="transport3_title">Bobby car</string>
+    <string name="transport4_title">Jogging</string>
+    <string name="transport5_title">Crawling</string>
     <!--Transport list - descriptions -->
-    <string name="transport1_description">description description description</string>
-    <string name="transport2_description">description description description</string>
-    <string name="transport3_description">description description description</string>
+    <string name="transport1_description">There is a possibility to use the bike and the kids’ cargo as well. After some routes with additional (sweet) 30 kg to pull behind, you will feel like a profesionall cyclist every time you ride a bike alone.</string>
+    <string name="transport2_description">Can be for two as well - it’s only about motivation</string>
+    <string name="transport3_description">Theoretically kids only, but… ;).</string>
+    <string name="transport4_description">Healthy legs are really useful, especially when you need to quickly catch a toddler.</string>
+    <string name="transport5_description">Option for the youngest - others are allowed to crawl as well, but it’s rather not convenient.</string>
 
     <!-- Accommodation list - titles -->
-    <string name="accommodation1_title">title</string>
-    <string name="accommodation2_title">title</string>
-    <string name="accommodation3_title">title</string>
-
+    <string name="accommodation1_title">Your own bed</string>
+    <string name="accommodation2_title">Parent\'s bed</string>
+    <string name="accommodation3_title">Just stay outside</string>
+    <string name="accommodation4_title">Anywhere</string>
     <!--Accommodation list - descriptions -->
-    <string name="accommodation1_description">description description description</string>
-    <string name="accommodation2_description">description description description</string>
-    <string name="accommodation3_description">description description description</string>
+    <string name="accommodation1_description">It means Leons bed. Rarely used, but design.</string>
+    <string name="accommodation2_description">Always the most occupied option. Theoretically reservations are obligatory, but If you just think that there is not enough space, remove dad by screaming (he will move to sofa).</string>
+    <string name="accommodation3_description">„I don’t want to go home”.</string>
+    <string name="accommodation4_description">You just need to be tired enough.</string>
 
 </resources>

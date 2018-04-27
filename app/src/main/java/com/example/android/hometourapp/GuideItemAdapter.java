@@ -47,7 +47,6 @@ public class GuideItemAdapter extends ArrayAdapter <GuideItem> {
         holder.titleTextView.setText(currentItem.getTitleId());
         holder.descriptionTextView.setText(currentItem.getDescriptionId());
 
-
         // Check if an image is provided for this word or not
         if (currentItem.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
@@ -74,56 +73,4 @@ public class GuideItemAdapter extends ArrayAdapter <GuideItem> {
             ButterKnife.bind(this, listItemView);
         }
     }
-
-    // /**
-    //  * Create a new {@link GuideItemAdapter} object.
-    //  *
-    //  * @param guideItems is the list of {@link GuideItem}s to be displayed.
-    //  */
-    // public GuideItemAdapter(Context context, ArrayList <GuideItem> guideItems) {
-    //     super(context, 0, guideItems);
-    // }
-    //
-    // @BindView(R.id.title_text_view)
-    // TextView titleTextView;
-    // @BindView(R.id.description_text_view)
-    // TextView descriptionTextView;
-    //
-    // @Override
-    // public View getView(int position, View convertView, ViewGroup parent) {
-    //     View listItemView = convertView;
-    //
-    //     // Check if an existing view is being reused, otherwise inflate the view
-    //     if (listItemView == null) {
-    //         listItemView = LayoutInflater.from(getContext()).inflate(
-    //                 R.layout.list_fragment_item, parent, false);
-    //     }
-    //
-    //     // Get the {@link Word} object located at this position in the list
-    //     GuideItem currentItem = getItem(position);
-    //
-    //     // Get the title from the currentItem object and set it on the titleTextView.
-    //     titleTextView.setText(currentItem.getTitleId());
-    //
-    //     // Get the description from the currentItem object and set it on the descriptionTextView.
-    //     descriptionTextView.setText(currentItem.getDescriptionId());
-    //
-    //     // Find the ImageView in the list_item.xml layout with the ID image.
-    //     ImageView imageView = listItemView.findViewById(R.id.image);
-    //
-    //     // Check if an image is provided for this word or not
-    //     if (currentItem.hasImage()) {
-    //         // If an image is available, display the provided image based on the resource ID
-    //         imageView.setImageResource(currentItem.getImageResourceId());
-    //         // Make sure the view is visible
-    //         imageView.setVisibility(View.VISIBLE);
-    //     } else {
-    //         // Otherwise hide the ImageView (set visibility to GONE)
-    //         imageView.setVisibility(View.INVISIBLE);
-    //     }
-    //
-    //     // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
-    //     // the ListView.
-    //     return listItemView;
-    // }
 }

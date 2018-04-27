@@ -22,15 +22,15 @@
         android:id="@+id/tips">
         <item
             android:id="@+id/nav_restaurants"
-            android:icon="@drawable/ic_pool_black_18dp"
+            android:icon="@drawable/ic_local_dining_black_18dp"
             android:title="@string/restaurants" />
         <item
             android:id="@+id/nav_transort"
-            android:icon="@drawable/ic_pool_black_18dp"
+            android:icon="@drawable/ic_train_black_18dp"
             android:title="@string/transport" />
         <item
             android:id="@+id/nav_accommodation"
-            android:icon="@drawable/ic_pool_black_18dp"
+            android:icon="@drawable/ic_hotel_black_18dp"
             android:title="@string/accommodation" />
     </group>
 

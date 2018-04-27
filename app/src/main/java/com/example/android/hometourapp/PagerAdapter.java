@@ -30,8 +30,14 @@ public class PagerAdapter extends FragmentPagerAdapter {
             return new HighlightsFragment();
         } else if (position == 1) {
             return new WildlifeFragment();
-        } else {
+        } else if (position == 2) {
             return new ActivitiesFragment();
+        } else if (position == 3) {
+            return new RestaurantsFragment();
+        } else if (position == 4) {
+            return new TransportFragment();
+        } else {
+            return new AccommodationFragment();
         }
     }
 
@@ -40,18 +46,24 @@ public class PagerAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 3;
+        return 6;
     }
 
-    @Override
-    public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.highlights);
-        } else if (position == 1) {
-            return mContext.getString(R.string.wildlife);
-        } else {
-            return mContext.getString(R.string.activities);
-        }
-    }
+   // @Override
+   // public CharSequence getPageTitle(int position) {
+   //     if (position == 0) {
+   //         return mContext.getString(R.string.highlights);
+   //     } else if (position == 1) {
+   //         return mContext.getString(R.string.wildlife);
+   //     } else if (position == 1) {
+   //         return mContext.getString(R.string.activities);
+   //     } else if (position == 1) {
+   //         return mContext.getString(R.string.restaurants);
+   //     } else if (position == 1) {
+   //         return mContext.getString(R.string.transport);
+   //     } else {
+   //         return mContext.getString(R.string.accommodation);
+   //     }
+   // }
 }
 
