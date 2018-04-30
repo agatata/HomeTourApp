@@ -6,11 +6,11 @@ import android.os.Parcelable;
 public class GuideItem implements Parcelable {
 
     /**
-     * Creator with Bird as its type
+     * Creator with GuideItem as its type
      */
 
     public static final Creator <GuideItem> CREATOR = new Creator <GuideItem>() {
-        // Method createFromParcel which creates a Bird from the Parcel
+        // Method createFromParcel which creates a GuideItem from the Parcel
         @Override
         public GuideItem createFromParcel(Parcel in) {
             return new GuideItem(in);

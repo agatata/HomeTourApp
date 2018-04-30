@@ -3,7 +3,6 @@ package com.example.android.hometourapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -48,7 +47,5 @@ public class DetailsActivity extends AppCompatActivity {
             // If an image is not available, display the provided custom image
             image.setImageResource(R.drawable.customphoto);
         }
-
     }
-
 }

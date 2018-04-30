@@ -48,22 +48,5 @@ public class PagerAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return 6;
     }
-
-   // @Override
-   // public CharSequence getPageTitle(int position) {
-   //     if (position == 0) {
-   //         return mContext.getString(R.string.highlights);
-   //     } else if (position == 1) {
-   //         return mContext.getString(R.string.wildlife);
-   //     } else if (position == 1) {
-   //         return mContext.getString(R.string.activities);
-   //     } else if (position == 1) {
-   //         return mContext.getString(R.string.restaurants);
-   //     } else if (position == 1) {
-   //         return mContext.getString(R.string.transport);
-   //     } else {
-   //         return mContext.getString(R.string.accommodation);
-   //     }
-   // }
 }
 

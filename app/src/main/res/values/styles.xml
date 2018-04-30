@@ -33,10 +33,8 @@
         <item name="android:layout_height">@dimen/list_item_layout_height</item>
         <item name="android:gravity">bottom</item>
         <item name="android:textSize">24sp</item>
-
         <item name="android:textColor">@color/textColor</item>
     </style>
-
 
     <!-- Detail description display -->
     <style name="DetailDescriptionStyle">

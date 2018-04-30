@@ -54,17 +54,22 @@ public class MainActivity extends AppCompatActivity {
         // Open drawer menu when the menu icon is clicked
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
+                    //change ViewPager page when tab selected
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                         int id = menuItem.getItemId();
                         if (id == R.id.nav_highlights) {
-                            HighlightsFragment highlights = new HighlightsFragment();
-                            android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
-                            fragmentManager.beginTransaction().replace(R.id.content_frame, highlights).commit();
+                            viewPager.setCurrentItem(0);
                         } else if (id == R.id.nav_wildlife) {
-                            WildlifeFragment wildlife = new WildlifeFragment();
-                            android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
-                            fragmentManager.beginTransaction().replace(R.id.content_frame, wildlife).commit();
+                            viewPager.setCurrentItem(1);
+                        } else if (id == R.id.nav_activities) {
+                            viewPager.setCurrentItem(2);
+                        } else if (id == R.id.nav_restaurants) {
+                            viewPager.setCurrentItem(3);
+                        } else if (id == R.id.nav_transort) {
+                            viewPager.setCurrentItem(4);
+                        } else if (id == R.id.nav_accommodation) {
+                            viewPager.setCurrentItem(5);
                         }
                         // set item as selected to persist highlight
                         menuItem.setChecked(true);
