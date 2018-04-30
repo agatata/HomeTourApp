@@ -3,7 +3,7 @@
     android:id="@+id/details"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroud">
+    android:background="@color/background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,25 +17,24 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="@dimen/customPadding"
             android:scaleType="centerCrop"
-            tools:image="@drawable/ic_pool_black_18dp"/>
+            tools:image="@drawable/ic_pool_black_18dp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/customPadding"
-            android:paddingRight="@dimen/customPadding"
             android:id="@+id/details_title"
-            android:textAppearance="?android:textAppearanceLarge"
-            tools:text="What to do" />
-
-        <TextView
+            style="@style/DetailTitleStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/customPadding"
             android:paddingRight="@dimen/customPadding"
+            android:paddingBottom="@dimen/halfPadding" />
+
+        <TextView
             android:id="@+id/details_description"
-            android:textAppearance="?android:textAppearanceMedium"
-            tools:text="blablablablablabla some text here blablablabla" />
+            style="@style/DetailDescriptionStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/customPadding"
+            android:paddingRight="@dimen/customPadding" />
     </LinearLayout>
 
 </ScrollView>

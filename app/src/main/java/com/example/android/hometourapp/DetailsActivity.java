@@ -24,7 +24,7 @@ public class DetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
-        // binding ButterKnife
+        // bind ButterKnife
         ButterKnife.bind(this);
 
         // get the intent from MainActivity
@@ -32,14 +32,22 @@ public class DetailsActivity extends AppCompatActivity {
         com.example.android.hometourapp.GuideItem guideItemChoice = intent.getParcelableExtra("guideItems");
 
         // initialize the strings and the image view ID
-        int birdName = guideItemChoice.getTitleId();
-        int birdPlace = guideItemChoice.getDescriptionId();
-        int birdImage = guideItemChoice.getImageResourceId();
+        int getTitle = guideItemChoice.getTitleId();
+        int getDescription = guideItemChoice.getDescriptionId();
+        int getImage = guideItemChoice.getImageResourceId();
 
         // set dat to the views
-        title.setText(birdName);
-        description.setText(birdPlace);
-        image.setImageResource(birdImage);
+        title.setText(getTitle);
+        description.setText(getDescription);
+
+        // Check if an image is provided for this word or not
+        if (guideItemChoice.hasImage()) {
+            // If an image is available, display the provided image based on the resource ID
+            image.setImageResource(getImage);
+        } else {
+            // If an image is not available, display the provided custom image
+            image.setImageResource(R.drawable.customphoto);
+        }
 
     }
 

@@ -29,13 +29,12 @@ public class AccommodationFragment extends Fragment {
         // Create a list of words
         final ArrayList <GuideItem> guideItems = new ArrayList <>();
         guideItems.add(new GuideItem(R.string.accommodation1_title, R.string.accommodation1_description,
-                R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.accommodation2_title, R.string.accommodation2_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.accommodation1));
+        guideItems.add(new GuideItem(R.string.accommodation2_title, R.string.accommodation2_description));
         guideItems.add(new GuideItem(R.string.accommodation3_title, R.string.accommodation3_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.accommodation3));
         guideItems.add(new GuideItem(R.string.accommodation4_title, R.string.accommodation4_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.accomodation4));
 
         // Create an GuideItemAdapter
         final GuideItemAdapter adapter = new GuideItemAdapter(getActivity(), guideItems);

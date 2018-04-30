@@ -29,14 +29,16 @@ public class GuideItem implements Parcelable {
     /** String resource ID for the description of the list item */
     private int mDescriptionId;
 
-    /** Image resource ID for the word */
+    /**
+     * Image resource ID for the item
+     */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    /** Constant value that represents no image was provided for this word */
+    /** Constant value that represents no image was provided for this item */
     private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
-     * Create a new Word object.
+     * Create a new GuideItem object.
      *
      * @param titleId is the string resource ID for the title of the list item of the guide
      * @param descriptionId is the string resource Id for the description of the list item
@@ -47,7 +49,7 @@ public class GuideItem implements Parcelable {
     }
 
     /**
-     * Create a new Word object.
+     * Create a new GuideItem object.
      *
      * @param titleId is the string resource ID for the title of the list item of the guide
      * @param descriptionId is the string resource Id for the description of the list item
@@ -60,7 +62,7 @@ public class GuideItem implements Parcelable {
     }
 
     /**
-     * Create a new Bird object which gets Parcel in
+     * Create a new GuideItem object which gets Parcel in
      */
 
     protected GuideItem(Parcel in) {

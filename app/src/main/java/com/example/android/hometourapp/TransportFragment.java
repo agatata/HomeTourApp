@@ -29,15 +29,15 @@ public class TransportFragment extends Fragment {
         // Create a list of words
         final ArrayList <GuideItem> guideItems = new ArrayList <>();
         guideItems.add(new GuideItem(R.string.transport1_title, R.string.transport1_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.transport1));
         guideItems.add(new GuideItem(R.string.transport2_title, R.string.transport2_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.transport2));
         guideItems.add(new GuideItem(R.string.transport3_title, R.string.transport3_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.transport3));
         guideItems.add(new GuideItem(R.string.transport4_title, R.string.transport4_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.transport4));
         guideItems.add(new GuideItem(R.string.transport5_title, R.string.transport5_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.transport5));
 
 
         // Create an GuideItemAdapter

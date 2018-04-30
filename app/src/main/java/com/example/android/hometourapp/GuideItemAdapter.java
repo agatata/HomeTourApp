@@ -1,5 +1,7 @@
 package com.example.android.hometourapp;
 import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +11,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import butterknife.BindDrawable;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -54,8 +57,10 @@ public class GuideItemAdapter extends ArrayAdapter <GuideItem> {
             // Make sure the view is visible
             holder.imageView.setVisibility(View.VISIBLE);
         } else {
+            // If an image is not available, display the provided custom image
+            holder.imageView.setImageResource(R.drawable.customphoto);
             // Otherwise hide the ImageView (set visibility to GONE)
-            holder.imageView.setVisibility(View.INVISIBLE);
+            holder.imageView.setVisibility(View.VISIBLE);
         }
 
         return listItemView;

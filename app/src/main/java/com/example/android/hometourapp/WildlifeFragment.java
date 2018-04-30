@@ -31,16 +31,14 @@ public class WildlifeFragment extends Fragment {
 
         // Create a list of words
         final ArrayList <GuideItem> guideItems = new ArrayList <>();
-        guideItems.add(new GuideItem(R.string.wildlife1_title, R.string.wildlife1_description,
-                R.drawable.ic_pets_black_18dp));
+        guideItems.add(new GuideItem(R.string.wildlife1_title, R.string.wildlife1_description));
         guideItems.add(new GuideItem(R.string.wildlife2_title, R.string.wildlife2_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.wildlife2));
         guideItems.add(new GuideItem(R.string.wildlife3_title, R.string.wildlife3_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.wildlife3));
         guideItems.add(new GuideItem(R.string.wildlife4_title, R.string.wildlife4_description,
-                R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.wildlife5_title, R.string.wildlife5_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.wildlife4));
+        guideItems.add(new GuideItem(R.string.wildlife5_title, R.string.wildlife5_description));
 
         // Create an {@link GuideItemAdapter}
         final GuideItemAdapter adapter = new GuideItemAdapter(getActivity(), guideItems);

@@ -31,16 +31,15 @@ public class HighlightsFragment extends Fragment {
 
         // Create a list of words
         final ArrayList <GuideItem> guideItems = new ArrayList <>();
-        guideItems.add(new GuideItem(R.string.highlights1_title, R.string.highlights1_description,
-                R.drawable.ic_pets_black_18dp));
+        guideItems.add(new GuideItem(R.string.highlights1_title, R.string.highlights1_description));
         guideItems.add(new GuideItem(R.string.highlights2_title, R.string.highlights2_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.highlights2));
         guideItems.add(new GuideItem(R.string.highlights3_title, R.string.highlights3_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.highlights3));
         guideItems.add(new GuideItem(R.string.highlights4_title, R.string.highlights4_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.highlights4));
         guideItems.add(new GuideItem(R.string.highlights5_title, R.string.highlights5_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.highlights5));
 
 
         // Create an {@link GuideItemAdapter}

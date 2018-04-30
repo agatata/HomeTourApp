@@ -29,13 +29,13 @@ public class RestaurantsFragment extends Fragment {
         // Create a list of words
         final ArrayList <GuideItem> guideItems = new ArrayList <>();
         guideItems.add(new GuideItem(R.string.restaurants1_title, R.string.restaurants1_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.restaurants1));
         guideItems.add(new GuideItem(R.string.restaurants2_title, R.string.restaurants2_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.restaurants2));
         guideItems.add(new GuideItem(R.string.restaurants3_title, R.string.restaurants3_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.restaurants3));
         guideItems.add(new GuideItem(R.string.restaurants4_title, R.string.restaurants4_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.restaurants4));
 
         // Create an GuideItemAdapter
         final GuideItemAdapter adapter = new GuideItemAdapter(getActivity(), guideItems);

@@ -28,20 +28,15 @@ public class ActivitiesFragment extends Fragment {
 
         // Create a list of words
         final ArrayList <GuideItem> guideItems = new ArrayList <>();
-        guideItems.add(new GuideItem(R.string.activities1_title, R.string.activities1_description,
-                R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.activities2_title, R.string.activities2_description,
-                R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.activities3_title, R.string.activities3_description,
-                R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.activities4_title, R.string.activities4_description,
-                R.drawable.ic_pets_black_18dp));
+        guideItems.add(new GuideItem(R.string.activities1_title, R.string.activities1_description));
+        guideItems.add(new GuideItem(R.string.activities2_title, R.string.activities2_description));
+        guideItems.add(new GuideItem(R.string.activities3_title, R.string.activities3_description));
+        guideItems.add(new GuideItem(R.string.activities4_title, R.string.activities4_description));
         guideItems.add(new GuideItem(R.string.activities5_title, R.string.activities5_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.activities5));
         guideItems.add(new GuideItem(R.string.activities6_title, R.string.activities6_description,
-                R.drawable.ic_pets_black_18dp));
-        guideItems.add(new GuideItem(R.string.activities7_title, R.string.activities7_description,
-                R.drawable.ic_pets_black_18dp));
+                R.drawable.activities6));
+        guideItems.add(new GuideItem(R.string.activities7_title, R.string.activities7_description));
 
         // Create an GuideItemAdapter
         final GuideItemAdapter adapter = new GuideItemAdapter(getActivity(), guideItems);

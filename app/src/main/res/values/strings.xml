@@ -71,10 +71,10 @@
     <string name="transport4_title">Jogging</string>
     <string name="transport5_title">Crawling</string>
     <!--Transport list - descriptions -->
-    <string name="transport1_description">There is a possibility to use the bike and the kids’ cargo as well. After some routes with additional (sweet) 30 kg to pull behind, you will feel like a profesionall cyclist every time you ride a bike alone.</string>
+    <string name="transport1_description">There is a possibility to use the bike and the kids’ cargo as well. After some routes with additional (sweet) 30 kg to pull behind, you will feel like a professional cyclist every time you ride a bike alone.</string>
     <string name="transport2_description">Can be for two as well - it’s only about motivation</string>
     <string name="transport3_description">Theoretically kids only, but… ;).</string>
-    <string name="transport4_description">Healthy legs are really useful, especially when you need to quickly catch a toddler.</string>
+    <string name="transport4_description">Healthy legs are really useful, especially when you need to catch your toddler quickly.</string>
     <string name="transport5_description">Option for the youngest - others are allowed to crawl as well, but it’s rather not convenient.</string>
 
     <!-- Accommodation list - titles -->
